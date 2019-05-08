@@ -1,0 +1,93 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Differentiator (3.1.0)
+  - NSObject+Rx (4.4.1):
+    - RxSwift (~> 4.3)
+  - ObjectMapper (3.4.2)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxDataSources-Texture (1.1.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+    - Texture (~> 2.7)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - Texture (2.8):
+    - Texture/AssetsLibrary (= 2.8)
+    - Texture/Core (= 2.8)
+    - Texture/MapKit (= 2.8)
+    - Texture/Photos (= 2.8)
+    - Texture/PINRemoteImage (= 2.8)
+    - Texture/Video (= 2.8)
+  - Texture/AssetsLibrary (2.8):
+    - Texture/Core
+  - Texture/Core (2.8)
+  - Texture/MapKit (2.8):
+    - Texture/Core
+  - Texture/Photos (2.8):
+    - Texture/Core
+  - Texture/PINRemoteImage (2.8):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (2.8):
+    - Texture/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper (~> 5.2.0)
+  - NSObject+Rx
+  - RxCocoa (= 4.4.1)
+  - RxDataSources
+  - RxDataSources-Texture (~> 1.1.2)
+  - RxOptional
+  - RxSwift (= 4.4.1)
+  - Texture
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  NSObject+Rx: 9884a92f19b610795c431e10b4e601913b59c9e9
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxDataSources-Texture: 612f1ad54047d9719a7b4c4fa77dbc4b36752710
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  Texture: fc6e0157201f3a6e503d364c147b1872e365cef4
+
+PODFILE CHECKSUM: 4f4c33508aa5b58161c836334985c11d77885ad0
+
+COCOAPODS: 1.4.0
